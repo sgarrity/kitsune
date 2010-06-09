@@ -58,7 +58,7 @@ with database connection and file location information. There is a
 
 
 Important Caveat
-^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 ``localsettings_django.py`` is important for tests, but will be ignored if
 a ``localsettings.py`` exists in the same directory. You should copy the
