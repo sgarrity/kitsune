@@ -26,7 +26,12 @@ Besides the Pythonic requirements, you'll probably want this software to make
 things happen:
 
 * Git, obviously.
+
+* Subversion and mercurial. Some of our requirements are in other, inferior
+  RCSs.
+
 * Memcached - the server, since the client is included in requirements.txt.
+
 * Sphinx - the server. We're currently on 0.9.9-release.
 
 
@@ -36,6 +41,7 @@ Getting the Source
 Grab the source from Github using::
 
     git clone git://github.com/jsocol/kitsune.git
+    cd kitsune
     git submodule update --init
 
 
