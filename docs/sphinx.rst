@@ -48,6 +48,10 @@ If ``sphinx.conf`` is executable, Sphinx executes it and uses whatever it
 prints to stdout as its configuration. We use that to allow string
 interpolation of our database settings and keep ``sphinx.conf`` generic.
 
+
+Running Sphinx
+--------------
+
 To use our ``sphinx.conf``, you'll need to set up a ``localsettings.py``
 with database connection and file location information. There is a
 ``localsettings.py-dist`` you can copy.
@@ -70,9 +74,6 @@ the copy. For example::
     $ indexer -c sphinx.conf --all  # see below
     $ searchd -c sphinx.conf  # see below
 
-
-Running Sphinx
---------------
 
 The first step is to run the indexer the first time. Assuming you've
 installed Sphinx, however you need to on your OS, and both ``indexer`` and
